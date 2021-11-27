@@ -1,64 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Music</title>
-</head>
+<title>Music</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="shortcut icon" type="image/x-icon" href="https://i.pinimg.com/564x/a4/65/d5/a465d52780b5e9d14b1c37b5602cc9b4.jpg" />
 <style>
-body{
+    body{
 background-color: 	 #333333;
-                font-family: sans-serif;
-            }
-
- h1{
-    height: 50px;
-    width:100%;
-   text-align: center;
-
-                    padding: 20px;
-                font-family:  Monaco;
-                color: white;
+margin:0px}
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;
 }
-            p{
-    font-size:24px;
-    color: white}
+h1{
+margin-left:10px}
 
-.button {
-  border: none;
-  color: 	 #333333;
-  padding: 16px 32px;
-  text-align: center;
+p{
+
+ color: white
+
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 250px;
+  background-color: #666666;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
   text-decoration: none;
-  display: inline-block;
-  font-size: 24px;
-  margin: 4px 2px;
-  transition-duration: 0.4s;
-  cursor: pointer;
 }
 
-.button1 {
-  background-color:	 #333333;
-  color: black;
-  border: 2px solid tomato;
+li a.active {
+  background-color: #04AA6D;
+  color: #dddddd;
 }
 
-.button1:hover {
-  background-color: tomato;
-  color: white;
+li a:hover:not(.active) {
+  background-color: #555;
+  color: #dddddd;
 }
-a {
-color: white;
+a{
+color:white
 }
-img{
-Width: 400px}
-
 </style>
-
 <body>
-<h1 style = "border:2px solid Violet;">My Karaoke Pictures</h1>
-<button class="button button1"><a href="https://jazzcoding2474.github.io/MAPEH-Grade-7/">Go Back</a></button>
-<p></p>
+
+
+
+<!-- Sidebar -->
+<ul>
+  <li><a  href="https://jazzcoding2474.github.io/MAPEH-Grade-7/">MAPEH Page</a></li>
+  <li><a class="active" href="https://jazzcoding2474.github.io/Music-Grade-7/">Music Page</a></li>
+  <li><a href="https://jazzcoding2474.github.io/Art-Grade-7/">Art Page</a></li>
+  <li><a href="https://jazzcoding2474.github.io/PE-Grade-7/">PE Page</a></li>
+
+</ul>
+
+<div class="w3-main" style="margin-left:260px">
+
+
+      <h1 class="w3-text-teal">My Karaoke Pictures</h1>
 <p>Here you can see my pictures while singing some of my favourite songs in karaoke.</p>
 <img  src="https://i.pinimg.com/564x/99/27/4c/99274c8aebaa06a38210c3f18b5a23a4.jpg">
 <img  src="https://i.pinimg.com/564x/b4/59/8c/b4598cb2543cbb9e9c0c52e3e10fc6c4.jpg">
@@ -68,5 +81,8 @@ Width: 400px}
 <img  src="https://i.pinimg.com/564x/47/cf/ea/47cfeaf99fa7b6a013384cacd2200323.jpg">
 <img  src="https://i.pinimg.com/564x/92/16/15/921615bd8f9543a0495ff77c1c8c1a92.jpg">
 <img  src="https://i.pinimg.com/564x/28/76/97/28769718e9794f6eae440206abb322c0.jpg">
+
+
+</div>
 </body>
 </html>
